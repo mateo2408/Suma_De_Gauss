@@ -13,7 +13,11 @@ main()
 
     if (num >= 0)
     {
-        /* code */
+        if (num = 1)
+        {
+            printf("El resultado de sumar %d es: %d", num, num);
+        }
+        
     }
     else
     {
