@@ -13,9 +13,9 @@ main()
 
     if (num >= 0)
     {
-        if (num = 1)
+        if (num == 1)
         {
-            printf("El resultado de sumar %d es: %d", num, num);
+            printf("\nEl resultado de sumar %d es: %d\n", num, num);
         }
         else
         {
@@ -27,10 +27,8 @@ main()
     }
     else
     {
-        printf("Asegurese que el numero ingresado sea entero y positivo");
+        printf("\nAsegurese que el numero ingresado sea entero y positivo\n");
     }
-    
-    
-    
+    printf("\nLa sumatoria de Gauss de %d es: %d\n", num, sum);
     return 0;
 }
