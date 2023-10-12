@@ -17,7 +17,13 @@ main()
         {
             printf("El resultado de sumar %d es: %d", num, num);
         }
-        
+        else
+        {
+            for ( i = 1; i <= num; i++)
+            {
+                sum += i;
+            }   
+        }
     }
     else
     {
