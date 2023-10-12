@@ -7,5 +7,20 @@ main()
     int num;
     int sum = 0;
     int i;
+
+    printf("Ingrese el numero que se desea sumar -> ");
+    scanf("%d", &num);
+
+    if (num >= 0)
+    {
+        /* code */
+    }
+    else
+    {
+        printf("Asegurese que el numero ingresado sea entero y positivo");
+    }
+    
+    
+    
     return 0;
 }
